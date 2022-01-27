@@ -41,7 +41,7 @@ const SahreMyExperience = () => {
       newsRating,
     };
 
-    fetch("http://localhost:5000/shareExperience", {
+    fetch("https://vast-waters-96917.herokuapp.com/shareExperience", {
       method: "POST",
       headers: {
         "content-type": "application/json",

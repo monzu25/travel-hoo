@@ -9,7 +9,7 @@ const DetailsView = () => {
   const [news, setNews] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/dailyNews/${newsId}`)
+    fetch(`https://vast-waters-96917.herokuapp.com/dailyNews/${newsId}`)
       .then((res) => res.json())
 
       .then((data) => setNews(data));
